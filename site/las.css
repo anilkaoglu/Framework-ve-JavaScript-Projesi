@@ -1,0 +1,128 @@
+/* buton öğesi */
+.buton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* input öğesi */
+  .input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* dropdown öğesi */
+  .dropdown {
+    padding: 8px;
+    border-radius: 5px;
+  }
+
+  /* avatar öğesi */
+  .avatar {
+    width: 150px;
+    height: 150px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin: 0 auto 20px; 
+  }
+
+  /* bold öğesi */
+  .bold{
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+
+  /* textarea öğesi */
+  .textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  /* card öğesi */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 200px;
+  }
+  
+/* menü öğesi  */
+.menu {
+    height: 80px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .menu li {
+    float: left;
+  }
+  
+  .menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+
+  /* link öğesi  */
+  .link {
+    color: #007bff;
+    text-decoration: underline;
+  }
+
+  /* divider öğesi */
+  .divider {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+  }
+
+  /* grid sistemi */
+
+  .cr-3{
+    width: 25%;
+    border: 1px solid black;
+  }
+
+  .cr-4{
+    width: 33.3333%;
+    
+  }
+
+  .cr-6{
+    width: 50%;
+    border: 1px solid black;
+  }
+
+  .cr-8{
+    width: 66.6666%;
+    
+  }
+
+  .cr-12{
+    width: 100%;
+  }
+
+  
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+  
+  
+  
+  

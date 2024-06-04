@@ -1,0 +1,226 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(204, 204, 204);
+}
+
+.menu{
+    background-color: rgb(7, 15, 43);
+}
+
+.menu li a{
+    color: rgb(146, 144, 195);
+}
+
+.menu-container {
+    position: relative;
+  }
+  
+  #menuList {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #menuList li {
+    margin-bottom: 5px;
+  }
+  
+  #menuList li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  /* sıdebar */
+
+  .orta{
+    display: flex;
+  }
+  
+  .bar{
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(27, 26, 85);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-left: 20%;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(27, 26, 85);
+  }
+
+  .bar:hover {
+    background-color: rgb(27, 26, 85);
+    color: rgb(146, 144, 195);
+    
+  }
+
+  .ust-bar{
+    height: 30px;
+    width: 300px;
+    border: 1px solid rgb(27, 26, 85);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    margin-left: 20%;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(27, 26, 85);
+   
+  }
+
+  .ust-bar:hover{
+    background-color: rgb(27, 26, 85);
+    color: rgb(146, 144, 195);
+  }
+
+  .side-h{
+    margin-top: 50px;
+    text-align: center;
+    color: rgb(27, 26, 85);
+  }
+
+  .side-p{
+    text-align: justify;
+    padding: 10px;
+  }
+
+  #menuList {
+    list-style: none;
+  }
+
+  .buton{
+    background-color: rgb(7, 15, 43);
+    color: rgb(146, 144, 195);
+    margin-top: 15px;
+    margin-left: 700px;
+  }
+
+  /* egitmenler */
+
+
+  .egitmen1{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    margin-left: 175px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);
+    -moz-box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);
+    box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);          
+}
+.egitmen2{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    margin-left: 50px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);
+    -moz-box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);
+    box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);
+}
+.egitmen3{
+    height: 450px;
+    width: 350px;
+    background-color: rgb(214, 204, 153);
+    border-radius: 10px;
+    margin-left: 50px;
+    -webkit-box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);
+    -moz-box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);
+    box-shadow: 10px 10px 15px 0px rgb(7, 15, 43);
+}
+
+.tblok1{
+    height: 300px;
+    width: 350px;
+    background-image: url(img/furkan.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tblok2{
+    height: 300px;
+    width: 350px;
+    background-image: url(img/yusuf.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+.tblok3{
+    height: 300px;
+    width: 350px;
+    background-image: url(img/ahmet.jpg);
+    background-size: cover;  
+    border-radius: 10px 10px 0 0; 
+}
+
+.bloklar{
+    display: flex;
+}
+
+.text{
+    text-align: center;
+    color: rgb(7, 15, 43);
+}
+
+/* form */
+
+form {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  input, button {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: rgb(7, 15, 43);
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+  
+  button:hover {
+    background-color: rgb(83, 92, 145);
+  }
+
+  /* footer */
+
+  .footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(7, 15, 43);
+  }
+
+  #themeButton{
+    padding-top: 20px;
+    
+  }
+
+  #themeButton:hover{
+    background-color: rgb(7, 15, 43)
+  }
+  
+
+  
+ 
+  
+
+
+  

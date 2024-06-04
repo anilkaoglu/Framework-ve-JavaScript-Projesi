@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="las.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <ul class="menu">
+        <li><a href="">Anasayfa</a></li>
+        <li><a href="">Kurslarımız</a></li>
+        <li><a href="">Eğitmenlerimiz</a></li>
+        <li><a href="">Hakkımızda</a></li>
+        <li><a href="">İletişim</a></li>
+    </ul>
+
+    <!-- sidebar -->
+    
+<div class="orta">
+
+    <div class="cr-4">
+        <h2 class="side-h">KURSLARIMIZ</h2>
+        <div>
+            <div class="ust-bar">Futbol</div>
+            <div class="bar">Basketbol</div>
+            <div class="bar">Voleybol</div>
+            <div class="bar">Yüzme</div>
+            <div class="bar">Hentbol</div>
+            <div class="bar">Boks</div>
+            <div class="bar">Tenis</div>
+        </div>
+    </div>
+
+    <!-- hakkında -->
+
+    <div class="cr-8">
+        <h2 class="side-h">HAKKIMIZDA</h2>
+        <p class="side-p">Ülkemizin geleceği olan sporcularımızın fiziksel ve zihinsel açıdan gelişimlerine profesyonel eğitmenlerimizle katkıda bulunmaktan büyük mutluluk duymaktayız.Öğrencilerimize profesyonel sporcu disiplini kazandırarak; eğitim hayatlarında başarılı birer birey olmalarının yanı sıra günlük hayatlarında da sağlıklı ve mutlu birer birey olmalarını amaçlıyoruz.Bu amaç doğrultusunda kulübümüzün felsefesi; öğrencilerimize spor sevgisini aşılamak, sporcu ruhunu ve disiplinini bir ömür boyu taşımalarını sağlayarak, ailesine ve ülkemize yararlı ahlaklı birer birey olmalarını sağlamaktır.Öğrencilerimize eğitmenlerimizin farkıyla eğitim almaları amacıyla aramıza katılmalarından büyük heyecan ve mutluluk duyacağız.</p>
+
+        <div class="menu-container">
+            <button id="toggleButton">Şubelerimiz</button>
+            <ul id="menuList">
+              <li><a href="#">İstanbul-Anadolu</a></li>
+              <li><a href="#">İstanbul-Avrupa</a></li>
+              <li><a href="#">İzmir</a></li>
+              <li><a href="#">Adana</a></li>
+              <li><a href="#">Antalya</a></li>
+              <li><a href="#">Bursa</a></li>
+            </ul>
+          </div>
+
+    </div>
+</div>
+
+    <div class="cr-12">
+        <h2 class="side-h">EĞİTMENLERİMİZ</h2>
+        <div class="bloklar">
+        <div class="egitmen1">
+            <div class="tblok1"></div>
+            <div class="blok1">
+                <h2 class="text">Furkan Yağuz</h2>
+                <p class="text">Beden Eğitimi Öğretmeni</p>
+            </div>
+        </div>
+        <div class="egitmen2">
+            <div class="tblok2"></div>
+            <div class="blok2">
+                <h2 class="text">Yusuf Özsümbül</h2>
+                <p class="text">Beden Eğitimi Öğretmeni</p>
+            </div>
+        </div>
+        <div class="egitmen3">
+            <div class="tblok3"></div>
+            <div class="blok3">
+                <h2 class="text">Ahmet Çetinkaya</h2>
+                <p class="text">Beden Eğitimi Öğretmeni</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- form -->
+
+    <div class="cr-12">
+        <h2 class="side-h">SİZE ULAŞMAMIZ İÇİN</h2>
+        <form id="myForm" onsubmit="return validateForm()">
+            <input class="input" type="text" id="name" placeholder="İsim-Soyisim Giriniz">
+            <input class="input" type="email" id="email" placeholder="Email Adresinizi Giriniz">
+            <button class="btn" type="submit">Gönder</button>
+          </form>
+    </div>
+
+    <div class="footer">
+        <button id="themeButton" onclick="changeTheme()">Aydınlık Tema</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
